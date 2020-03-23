@@ -1,3 +1,24 @@
+.form {
+    text-align: center;
+    border: 1px solid;
+    border-color: gray;
+    width: 587px;
+    margin: auto;
+    border-radius: 50px;
+    height: 45px;
+}
+.form > span {
+    vertical-align: middle;
+    padding-top: 15px;
+}
+input {
+    height: 34px;
+    width: 487px;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    vertical-align: center;
+}
 .logo {
     height: 233px;
 }
