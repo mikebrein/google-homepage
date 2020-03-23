@@ -1,0 +1,36 @@
+.logo {
+    height: 233px;
+}
+.logo > img {
+    padding-top: 109px;
+    display: block;
+    margin: auto;
+}
+nav {
+    padding: 0px 0px 0px 0px;
+}
+nav > div {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+}
+nav > div > ul {
+    display: inline-block;
+}
+nav > div > ul > li {
+    padding-left: 15px;
+    padding-top: 4px;
+    display: inline-block;
+}
+.right {
+    float: right;
+    padding-right: 30px;
+}
+.blue-button {
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    background: #4387fd;
+    padding: 6px 12px;
+}
