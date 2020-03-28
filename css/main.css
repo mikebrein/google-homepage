@@ -1,4 +1,4 @@
-.form {
+form {
     text-align: center;
     border: 1px solid;
     border-color: gray;
@@ -7,12 +7,11 @@
     border-radius: 50px;
     height: 45px;
 }
-.form > span {
+form > img {
     vertical-align: middle;
-    padding-top: 15px;
 }
-input {
-    height: 34px;
+input[type=text] {
+    height: 96%;
     width: 487px;
     text-align: left;
     border: none;
@@ -33,25 +32,39 @@ nav {
 nav > div {
     font-family: arial, sans-serif;
     font-size: 13px;
-    padding-left: 10px;
 }
 nav > div > ul {
+    margin: 20px 10px 20px 0px;
+}
+div > ul > li {
     display: inline-block;
 }
-nav > div > ul > li {
+li.left {
     padding-left: 15px;
-    padding-top: 4px;
-    display: inline-block;
 }
-.right {
+li.right {
     float: right;
-    padding-right: 30px;
+    padding-right: 15px;
 }
-.blue-button {
+#blue-button {
     border: 1px solid #4285f4;
     border-radius: 3px;
     font-weight: bold;
     color: white;
     background: #4387fd;
-    padding: 6px 12px;
+    padding: 5px 10px;
+    position: relative;
+    bottom: 5px;
+    margin-right: 5px;
+}
+.sbuttons {
+    text-align: center;
+}
+.button {
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    color: white;
+    background: #4387fd;
+    padding: 5px 10px;
+    width:
 }
